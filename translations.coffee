@@ -112,7 +112,7 @@ module.exports = ->
 			desc: 'Zagraj w Interregnum. Otrzymujesz 1 dworek w Prusach jeśli masz już dworek w Wielkopolsce.
 				Otrzymujesz kolejny dworek w Prusach jeśli dodatkowo posiadasz dworek w Małopolsce.
 				W żadnej z tych prowincji nie może być rozbioru.'
-		en {}
+		en: {}
 	,
 		pl: 
 			name: 'Unia brzeska'

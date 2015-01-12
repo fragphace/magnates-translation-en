@@ -4,7 +4,7 @@
   "description": "The Magnates: A Game of Power cards translation (en)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --opts ./mocha.opts test.coffee"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/fragphace/magnates-translation-en",
   "devDependencies": {
-    "gulp": "^3.8.10"
+    "chai": "^1.10.0",
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "mocha": "^2.1.0"
   }
 }
