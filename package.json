@@ -1,0 +1,29 @@
+{
+  "name": "magnates-translation-en",
+  "version": "1.0.0",
+  "description": "The Magnates: A Game of Power cards translation (en)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fragphace/magnates-translation-en.git"
+  },
+  "keywords": [
+    "board",
+    "game",
+    "translation",
+    "magnates",
+    "magnaci"
+  ],
+  "author": "Paweł Maciejewski <fragphace@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fragphace/magnates-translation-en/issues"
+  },
+  "homepage": "https://github.com/fragphace/magnates-translation-en",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}
