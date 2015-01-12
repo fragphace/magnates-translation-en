@@ -3,24 +3,34 @@ module.exports = ->
 		pl: 
 			name: 'Prymas',
 			desc: 'Rozstrzygasz remisy w Senacie i Sejmie, w trakcie Konfliktów i w Interregnum.'
-		en: {}
+		en: 
+			name: 'Primate'
+			desc: 'You break ties in Senat and Sejm, during Conflicts and Interregnum.'
 	,
 		pl: 
 			name: 'Podskarbi',
-			desc: 'Zagraj w Interregnum. Zamień dowolny 1D w Prowincji, w której nie ma R, na własny.'
-		en: {}
+			desc: 'Zagraj w Interregnum. Zamień dowolny Dworek w Prowincji, w której nie ma 
+				Rozbioru, na własny.'
+		en: 
+			name: 'Treasurer'
+			desc: "Play during Interregnum. Replace an opponent's Residence in an unpartitioned Province
+				with your own Residence."
 	,
 		pl: 
 			name: 'Hetman',
 			desc: 'Zagraj w chwili rozstrzygania Konfliktu. Siłę zagranej przez siebie 
 				karty Familii zwiększasz o +3.'
-		en: {}
+		en: 
+			name: 'Hetman'
+			desc: "Play when resolving the Conflict card. Family card's Strength is increased by +3."
 	,
 		pl: 
 			name: 'Kanclerz',
 			desc: 'Zagraj w chwili rozpatrywania karty Praw. Wpływy zagranej przez siebie karty 
 				Familii zwiększasz o +3.'
-		en: {}
+		en: 
+			name: 'Chancellor'
+			desc: "Play when resolving the Privilege card. Family card's Influence is increased by +3."
 	,
 		pl: 
 			name: 'Biskupstwo',
