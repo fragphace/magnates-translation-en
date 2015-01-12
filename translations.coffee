@@ -13,8 +13,8 @@ module.exports = ->
 				Rozbioru, na własny.'
 		en: 
 			name: 'Treasurer'
-			desc: "Play during Interregnum. Replace an opponent's Residence in an unpartitioned Province
-				with your own Residence."
+			desc: "Play during Interregnum. Replace an opponent's Estate in an unpartitioned Province
+				with your own Estate."
 	,
 		pl: 
 			name: 'Hetman',
@@ -22,7 +22,7 @@ module.exports = ->
 				karty Familii zwiększasz o +3.'
 		en: 
 			name: 'Hetman'
-			desc: "Play when resolving the Conflict card. Family card's Strength is increased by +3."
+			desc: "Play when resolving a Conflict card. Family card's Strength is increased by +3."
 	,
 		pl: 
 			name: 'Kanclerz',
@@ -30,109 +30,159 @@ module.exports = ->
 				Familii zwiększasz o +3.'
 		en: 
 			name: 'Chancellor'
-			desc: "Play when resolving the Privilege card. Family card's Influence is increased by +3."
+			desc: "Play when resolving a Privilege card. Family card's Influence is increased by +3."
 	,
 		pl: 
 			name: 'Biskupstwo',
 			desc: 'Zagraj podczas rozpatrywania karty Senatora "Prymas". Wpływy zagranej 
 				przez siebie karty Familii zwiększasz o +10.'
-		en: {}
+		en: 
+			name: 'Bishopric'
+			desc: "Play during resolving of the \"Primate\" card. Your Family card's 
+				Influence is increased by +10."
 	,
 		pl:
 			name: 'Wersal Północy',
 			desc: 'Zagraj podczas rozpatrywania karty Senatora "Podskarbi". 
 				Wpływy zagranej przez siebie karty Familii zwiększasz o +10.'
-		en: {}
+		en: 
+			name: 'Versailles of the north'
+			desc: "Play during resolving of the \"Treasurer\" card. Your Family card's 
+				Influence is increased by +10."
 	,
 		pl:
 			name: 'Szkoła rycerska',
 			desc: 'Zagraj podczas rozpatrywania karty Senatora "Hetman". Wpływy zagranej przez siebie
 				karty Familii zwiększasz o +10.'
-		en: {}
+		en: 
+			name: 'Corps of Cadets'
+			desc: "Play during resolving of the \"Hetman\" card. Your Family card's 
+				Influence is increased by +10."
 	,
 		pl:
 			name: 'Sejmik ziemski',
 			desc: 'Zagraj podczas rozpatrywania karty Senatora "Kanclerz". Wpływy zagranej przez
 				siebie Karty Familii zwiększasz o +10.'
-		en: {}
+		en: 
+			name: 'Rural assembly'
+			desc: "Play during resolving of the \"Chancellor\" card. Your Family card's 
+				Influence is increased by +10."
 	,
 		pl:
 			name: 'Trybunał'
 			desc: 'Zagraj podczas rozpatrywania karty Senatora albo karty Praw. Wpływy
-				Zagranej przez siebie karty Familii zwiększasz o +1.'
-		en: {}
+				zagranej przez siebie karty Familii zwiększasz o +1.'
+		en: 
+			name: 'Tribunal'
+			desc: "Play during resolving a Senate or Privilege card. Your Family card's Influence 
+				is increased by +1."
 	,
 		pl:
 			name: 'Konfederacja'
 			desc: 'Zagraj podczas rozpatrywania karty Senatora albo karty Praw. Wpływy zagranej
 				przez siebie karty Familii zwiększasz o +2.'
-		en: {}
+		en: 
+			name: 'Confederation'
+			desc: "Play during resolving a Senate or Privilege card. Your Family card's Influence 
+				is increased by +2."
 	,
 		pl:
 			name: 'Kolegia jezuickie'
 			desc: 'Zagraj podczas rozpatrywania karty Senatora albo karty Praw. Wpływy zagranej
 				przez siebie karty Familii zwiększasz o +1.'
-		en: {}
+		en: 
+			name: 'Jesuit schools'
+			desc: "Play during resolving a Senate or Privilege card. Your Family card's Influence 
+				is increased by +1."
 	,
 		pl:
 			name: 'Innowiercy'
 			desc: 'Zagraj w trakcie rozstrzygania Konfliktu. Zmniejszasz o -1 Siłę swojej karty Familii.'
-		en: {}
-	,
-		pl: 
-			name: 'Kapitulacja'
-			desc: 'Zagraj w trakcie rozstrzygania Konfliktu. Zmniejszasz o -3 Siłę swojej karty Familii.'
-		en: {}
+		en: 
+			name: 'Dissidents'
+			desc: "Play during resolving a Conflict card. Your Family card's Strength 
+				is decreased by -1"
 	,
 		pl:
 			name: 'Rokosz'
 			desc: 'Zagraj w trakcie rozstrzygania Konfliktu. Zmniejsz o -2 Siłę swojej karty Familii.'
-		en: {}
+		en: 
+			name: 'Rebellion'
+			desc: "Play during resolving a Conflict card. Your Family card's Strength 
+				is decreased by -2"
+	,
+		pl: 
+			name: 'Kapitulacja'
+			desc: 'Zagraj w trakcie rozstrzygania Konfliktu. Zmniejszasz o -3 Siłę swojej karty Familii.'
+		en: 
+			name: 'Surrender'
+			desc: "Play during resolving a Conflict card. Your Family card's Strength 
+				is decreased by -3"
 	,
 		pl:
 			name: 'Klasztor'
-			desc: 'Zagraj podczas rozstrzygania konfliktu. W objętej nim prowincji postaw Klasztor,
+			desc: 'Zagraj podczas rozstrzygania Konfliktu. W objętej nim prowincji postaw Klasztor,
 				który od tej chwili do końca gry zwiększa o +1 Siłę Rzeczpospolitej w tej prowincji.'
-		en: {}
+		en: 
+			name: 'Monastery'
+			desc: "Play while resolving a Conflict card. Place the Monastery in the attacked Province, 
+				from now on it increases Commonwealth's Strength by +1."
 	,
 		pl:
 			name: 'Palazzo in fortezza'
 			desc: 'Zagraj podczas rozstrzygania konfliktu. W objętej nim prowincji postaw Pałac,
 				który od tej chwili do końca gry zwiększa o +2 Siłę Rzeczpospolitej w tej prowincji.'
-		en: {}
+		en: 
+			name: 'Palazzo in fortezza'
+			desc: "Play while resolving a Conflict card. Place the Palace in the attacked Province, 
+				from now on it increases Commonwealth's Strength by +2."
 	,
 		pl:
 			name: 'Twierdza'
 			desc: 'Zagraj podczas rozstrzygania konfliktu. W objętej nim prowincji postaw Twierdzę,
 				który od tej chwili do końca gry zwiększa o +3 Siłę Rzeczpospolitej w tej prowincji.'
-		en: {}
+		en: 
+			name: 'Fortress'
+			desc: "Play while resolving a Conflict card. Place the Fortress in the attacked Province, 
+				from now on it increases Commonwealth's Strength by +3."
 	,
 		pl:
 			name: 'Pospolite ruszenie'
 			desc: 'Zagraj w trakcie rozstrzygania Konfliktu. Zwiększasz o +1 Siłę swojej karty Familii.'
-		en: {}
+		en: 
+			name: 'Levy in mass'
+			desc: "Play during resolving of a Conflict card. Your Family card's Strength is increased by +1."
 	,
 		pl:
 			name: 'Wojska kwarciane'
 			desc: 'Zagraj w trakcie rozstrzygania Konfliktu. Zwiększasz o +2 Siłę swojej Familii.'
-		en: {}
+		en: 
+			name: 'Regular army'
+			desc: "Play during resolving of a Conflict card. Your Family card's Strength is increased by +2."
 	,
 		pl:
 			name: 'Spław zboża'
-			desc: 'Zagraj w Interregnum. Otrzymujesz 1 dworek w Prusach jeśli masz już dworek w Wielkopolsce.
-				Otrzymujesz kolejny dworek w Prusach jeśli dodatkowo posiadasz dworek w Małopolsce.
-				W żadnej z tych prowincji nie może być rozbioru.'
-		en: {}
+			desc: 'Zagraj w Interregnum. Otrzymujesz 1 Dworek w Prusach jeśli masz już Dworek w Wielkopolsce.
+				Otrzymujesz kolejny Dworek w Prusach jeśli dodatkowo posiadasz Dworek w Małopolsce.
+				W żadnej z tych prowincji nie może być Rozbioru.'
+		en: 
+			name: 'Grain rafting'
+			desc: 'Play during Interregnum. You get 1 Estate in Prussia if you already have 
+				an Estate in Great Poland. You get additional Estate in Prussia if you have 
+				an Estate in Little Poland. Neither of them can be Partitioned.'
 	,
 		pl: 
 			name: 'Unia brzeska'
-			desc: 'Zagraj w fazie Interregnum. Otrzymujesz 1 dworek w wybranej Prowincji, jeśli
-				przewodzisz lub dominujesz na Litwie lub Ukrainie.'
-		en: {}
+			desc: 'Zagraj w fazie Interregnum. Otrzymujesz 1 Dworek w wybranej Prowincji, jeśli
+				Przewodzisz lub Dominujesz na Litwie lub Ukrainie.'
+		en: 
+			name: 'Union of Brest'
+			desc: 'Play in Interregnum. You get 1 Estate in chosen Province if you 
+				have an Advantage or Dominance in Lithuania or Ukraine.'
 	,
 		pl:
 			name: 'Prywatne księstwo'
-			desc: 'Zagraj w fazie Interregnum. Umieść w dowolnej Prowincji 1 dworek jeśli dominujesz
+			desc: 'Zagraj w fazie Interregnum. Umieść w dowolnej Prowincji 1 Dworek jeśli dominujesz
 				w nie mniej niż:
 					- 2 Prowincjach (w grze dla 2 lub 3 graczy)
 					- 1 Prowincji  (w grze dla 4 lub 5 graczy).'
@@ -140,8 +190,8 @@ module.exports = ->
 	,
 		pl:
 			name: 'Ad maiorem Dei gloriam'
-			desc: 'Zagraj w fazie Interregnum. Otrzymujesz 1 dworek w wybranej Prowincji, jeśli
-				w co najmniej 4 Prowincjach, w których nie ma zaboru, posiadasz już dworek.'
+			desc: 'Zagraj w fazie Interregnum. Otrzymujesz 1 Dworek w wybranej Prowincji, jeśli
+				w co najmniej 4 Prowincjach, w których nie ma zaboru, posiadasz już Dworek.'
 		en: {}
 	,
 		pl:
@@ -153,7 +203,7 @@ module.exports = ->
 	,
 		pl: 
 			name: 'Ordynacja'
-			desc: 'Zagraj w chwili, gry tracisz dworek. Możesz go usunąć z Prowincji
+			desc: 'Zagraj w chwili, gry tracisz Dworek. Możesz go usunąć z Prowincji
 				innej niż wskazują okoliczności.'
 		en: {}
 	,
@@ -166,20 +216,20 @@ module.exports = ->
 		pl:
 			name: 'Asygnaty'
 			desc: 'Wskazany przez Ciebie gracz musi: oddać Ci wybrana przez Ciebie kartę Praw albo
-				wszystkie swoje dworki w wybranej przez niego Prowincji, w której posiada co najmniej
-				1 dworek i w której nie ma rozbioru.'
+				wszystkie swoje Dworki w wybranej przez niego Prowincji, w której posiada co najmniej
+				1 Dworek i w której nie ma Rozbioru.'
 		en: {}
 	,
 		pl:
 			name: 'Pacta conventa'
-			desc: 'Zagraj pod koniec fazy Senatu. Otrzymujesz 1 dworek za każdą zdobytą w tej fazie Sejmu
+			desc: 'Zagraj pod koniec fazy Senatu. Otrzymujesz 1 Dworek za każdą zdobytą w tej fazie Sejmu
 				kartę Praw z wybranym symbolem polityki króla innym niż aktualna polityka Króla.'
 		en: {}
 	,
 		pl:
 			name: 'Konstytucja 3 maja'
 			desc: 'Jeśli posiadasz tę kartę w chwili określania zwycięzcy a w żadnej Prowincji
-				nie ma rozbioru, powiększasz swój majątek o 5.'
+				nie ma Rozbioru, powiększasz swój majątek o 5.'
 
 
 	]
