@@ -186,50 +186,76 @@ module.exports = ->
 				w nie mniej niż:
 					- 2 Prowincjach (w grze dla 2 lub 3 graczy)
 					- 1 Prowincji  (w grze dla 4 lub 5 graczy).'
-		en: {}
+		en: 
+			name: 'Private duchy'
+			desc: "Play in Interregnum. Place 1 Estate in chosen Province if you Dominate in no less than:
+					- 2 Provinces (in 2 or 3 player game)
+					- 1 Province (in 4 or 5 player game)"
 	,
 		pl:
 			name: 'Ad maiorem Dei gloriam'
 			desc: 'Zagraj w fazie Interregnum. Otrzymujesz 1 Dworek w wybranej Prowincji, jeśli
 				w co najmniej 4 Prowincjach, w których nie ma zaboru, posiadasz już Dworek.'
-		en: {}
+		en: 
+			name: 'Ad maiorem Dei gloriam'
+			desc: "Play during Interregnum. You get 1 Estate in Province of your choice if 
+				you already have an Estate in 4 non-partitioned Provinces."
 	,
 		pl:
 			name: 'Poselstwo'
 			desc: 'Zagraj po ujawnieniu kart Konfliktu a przed zagraniem kart Familii. Odrzuć
 				z gry jedną z odsłoniętych kart Konfliktu. Następnie odsłoń kolejną kartę
 				z talii Konfliktów i postępuj wg normalnych zasad.'
-		en: {}
+		en: 
+			name: 'Mission'
+			desc: 'Play after revealing Conflict cards but before playing Family cards.
+				Discard one of the revealed Conflict cards. Next, draw a new card from
+				the Conflict cards pile and follow the normal rules.'
 	,
 		pl: 
 			name: 'Ordynacja'
 			desc: 'Zagraj w chwili, gry tracisz Dworek. Możesz go usunąć z Prowincji
 				innej niż wskazują okoliczności.'
-		en: {}
+		en:
+			name: 'Estate'
+			desc: 'Play while loosing Estate. You can remove it from the Province other than
+				circumstances indicate.'
 	,
 		pl:
 			name: 'VETO! Nie pozwalam!'
 			desc: 'Anuluj Akcję innego gracza. Zagrana przez niego karta Praw jest usuwana z gry,
 				a zagrana karta Senatora wraca do Senatu.'
-		en: {}
+		en: 
+			name: 'VETO! I do not allow!'
+			desc: "Cancel other player's action. Remove the card from the game if it's a Law card
+				or return it to Senate if it's a Senator card."
 	,
 		pl:
 			name: 'Asygnaty'
 			desc: 'Wskazany przez Ciebie gracz musi: oddać Ci wybrana przez Ciebie kartę Praw albo
 				wszystkie swoje Dworki w wybranej przez niego Prowincji, w której posiada co najmniej
 				1 Dworek i w której nie ma Rozbioru.'
-		en: {}
+		en: 
+			name: 'Receipt'
+			desc: 'Choose a player. They must give you their Law card of your choosing or 
+				all of their Estates in non-partitioned Province of their choice in which they have at least 
+				1 Estate'
 	,
 		pl:
 			name: 'Pacta conventa'
 			desc: 'Zagraj pod koniec fazy Senatu. Otrzymujesz 1 Dworek za każdą zdobytą w tej fazie Sejmu
 				kartę Praw z wybranym symbolem polityki króla innym niż aktualna polityka Króla.'
-		en: {}
+		en: 
+			name: 'Pacta conventa'
+			desc: "Play at the end of the Senate phase. You receive 1 Estate for each Law card you acquired
+				 in this Sejm phase with king's politics symbol different than that the actual King's policy."
 	,
 		pl:
 			name: 'Konstytucja 3 maja'
 			desc: 'Jeśli posiadasz tę kartę w chwili określania zwycięzcy a w żadnej Prowincji
 				nie ma Rozbioru, powiększasz swój majątek o 5.'
-
-
+		en:
+			name: 'Constitution of May 3'
+			desc: 'If you have this card at the end of the game and all Provinces remain
+				unpartitioned, you increase your Walth by 5.'
 	]
