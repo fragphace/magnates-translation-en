@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Magnates: A Game of Power</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href="./style.css" type="text/css" rel='stylesheet'> 
+</head>
+
+<body>
+	<ul class="translations">
+		{{#translations}}
+			<li class="translation">
+				<p class="name pl">{{pl.name}}</p>
+				<p class="name en">{{en.name}}</p>
+				<p class="desc">{{en.desc}}</p>
+			</li>
+		{{/translations}}
+	</ul>
+	<script src="./script.js"></script>
+</body>
+
+</html>

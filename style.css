@@ -1,0 +1,31 @@
+body {
+	font-family: 'Open Sans', serif;
+	font-size: 12px;
+}
+
+ul, ul li, p {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.translations {
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+}
+
+.translation {
+	margin-bottom: 1.5em;
+}
+
+.translation .name.pl {
+	font-size: 1.3em;
+	font-weight: 800;
+	margin-bottom: .3em;
+}
+
+.translation .name.en {
+	font-style: italic;
+	margin-bottom: .8em;
+}
