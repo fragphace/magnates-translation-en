@@ -4,11 +4,10 @@ The Magnates: A Game of Power cards translation (en)
 # Build
 
 ```
-npm install
 gulp compile-html
 ```
 
-Check the `index.html` for result. Customize throught `style.css` and `script.js`.
+Check the `index.html` for result. Customize with `style.css` and `script.js`.
 
 # Test
 
