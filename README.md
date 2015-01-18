@@ -1,7 +1,7 @@
-# The Magnates: A Game of Power cards translation (en)
+# The Magnates cards translation (en)
 
-Cards English translations for 
-[http://boardgamegeek.com/boardgame/155025/magnates-game-power](The Magnates)
+English translation for 
+[The Magnates: A Game of Power](http://boardgamegeek.com/boardgame/155025/magnates-game-power)
 board game.
 
 # Build
