@@ -4,6 +4,8 @@ English translation for
 [The Magnates: A Game of Power](http://boardgamegeek.com/boardgame/155025/magnates-game-power)
 board game.
 
+Live view: [click here](https://rawgit.com/fragphace/magnates-translation-en/master/index.html)
+
 # Build
 
 Modify `translations.coffee`.
